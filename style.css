@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1255px !important;
+    margin: 0 auto;
+}
+
+.kirish {
+    background: linear-gradient(rgba(77, 94, 246, 0.20) 0%, rgba(246, 77, 77, 0.20) 100%);
+}
+
+.katalog {
+    background: linear-gradient(270deg, #4D5EF6 0%, #F64D4D 100%);
+}
+
+footer {
+    background: var(--Button-gradient-20, linear-gradient(270deg, rgba(77, 94, 246, 0.20) 0%, rgba(246, 77, 77, 0.20) 100%));
+}
+
+.footer-wrapper {
+    border-bottom-width: 2px;
+    border-bottom-color: rgba(0, 0, 0, 0.222);
+    border-bottom-style: solid;
+}

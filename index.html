@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVION LINK -->
+    <link rel="icon" href="./images/icons/main-logo.svg">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- TAILWIND LINK -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Bootstrap LINK for carousel -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Nextstore.uz</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION STARTED -->
+    <header class="sticky top-0 z-10 shadow-black lg:shadow-xl bg-[#fff]">
+        <div class="container">
+            <!-- TOP HEADER INFO -->
+            <div class="flex justify-end items-center gap-[180px] pt-[3px] pb-[18px]">
+                <div class="flex items-center gap-[9px]">
+                    <img src="./images/icons/email.svg" alt="email">
+                    <p class="cursor-pointer">Aloqa uchun</p>
+                </div>
+
+                <select name="" id="" class="outline-none relative left-20 cursor-pointer">
+                    <option value="uz">UZ</option>
+                    <option value="eng">ENG</option>
+                    <option value="rus">RU</option>
+                </select>
+            </div>
+            <!-- TOP HEADER INFO -->
+
+            <!-- NAVBAR MENU SECTION STARTED -->
+            <nav>
+                <ul class="flex items-center justify-between gap-[50px] pb-[11px]">
+                    <li><a href="#"><img src="./images/icons/main-logo.svg" alt="main-logo"></a></li>
+                    <li><a href="#"><button
+                                class="katalog text-[#fff] text-[16px] flex items-center gap-[12px] pt-[11px] pb-[11px] pl-[18px] pr-[18px] rounded-[8px]"><i
+                                    class='bx bx-menu'></i>Katalog</button></a></li>
+                    <li class="flex items-center"><input type="text" placeholder="Maxsulotlarni izlash"
+                            class="cursor-pointer h-[46px] border-[1px] pt-[14px] pb-[14px] pr-[157px] pl-[18px] rounded-l-[8px] placeholder:text-[#6C757D] border-[#E4E7EE] outline-none"><i
+                            class='bx bx-search pt-[11px] pb-[11px] pr-[18px] pl-[18px] bg-[#0D63F3] h-[46px] flex justify-center items-center text-[#fff] rounded-r-[8px] cursor-pointer'></i>
+                    </li>
+                    <li class="mr-[-70px]"><img src="./images/icons/Sevimlilar.svg" alt="like" class="cursor-pointer">
+                    </li>
+                    <li><img src="./images/icons/Korzina.svg" alt="korzinka" class="cursor-pointer"></li>
+                    <li><button class="kirish rounded-[8px] pt-[13px] pb-[13px] pl-[35px] pr-[35px]">Kirish</button>
+                    </li>
+                </ul>
+            </nav>
+            <!-- NAVBAR MENU SECTION ENDED -->
+        </div>
+    </header>
+    <!-- HEADER SECTION ENDED -->
+
+    <!-- MAIN SECTION STARTED -->
+    <main class="bg-[#ECF4FF] z-[-5]">
+
+        <!-- SECTION-1 STARTED -->
+        <section id="section-1">
+            <div class="container">
+                <div class="wrapper-1 pt-[40px] pb-[76px]">
+                    <div id="carouselExampleCaptions" class="carousel slide" autoplay="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active relative" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded-[20px]">
+                            <div class="carousel-item active">
+                                <img src="./images/jpg/cashback.jpg" class="d-block w-100  " alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/jpg/cashback.jpg" class="d-block w-100 " alt="...">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="./images/jpg/cashback.jpg" class="d-block w-100 " alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev pr-[90px]" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next pl-[90px]" type="button"
+                            data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-1 ENDED -->
+
+        <!-- SECTION-2 STARTED-->
+        <section id="section-2" class="pb-[40px]">
+            <div class="container">
+                <h2 class="text-[#1E1E1E] text-[28px] pb-[20px]">Kategoriyalar</h2>
+                <div class="wrapper-2 flex justify-between pb-[20px]">
+                    <img src="./images/jpg/Kategoriyalar.png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (1).png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (2).png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (3).png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (4).png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (5).png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (6).png" alt="kategoriya">
+                    <img src="./images/jpg/Kategoriyalar (7).png" alt="kategoriya">
+                </div>
+                <button
+                    class="w-[100%] bg-[#fff] pt-[17px] pb-[17px] rounded-[10px] text-[18px] text-[#1E1E1E] font-[491]">Batafsil</button>
+            </div>
+        </section>
+        <!-- SECTION-2 ENDED -->
+
+        <!-- SECTION-3 STARTED -->
+        <section id="section-3">
+            <div class="container">
+                <h2 class="text-[#1E1E1E] text-[28px] pb-[20px]">Eng ko’p sotilgan</h2>
+                <div class="wrapper-3 flex flex-wrap gap-[20px] pb-[37px]">
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">299 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Airpods Pro
+                                simsiz quloqchin , Oq rangda</p>
+
+                            <span class="text-[#6C757D] text-[14px]">1230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">16 114 285 so'm</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Macbook Pro
+                                13" 2.4 2019 Intel core i5
+                                DDR3 8</p>
+
+                            <span class="text-[#6C757D] text-[14px]">230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">4 234 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[53px]">Apple watch 4</p>
+
+                            <span class="text-[#6C757D] text-[14px]">543 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 340 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Robot - tozalagich Xiaomi
+                                Mi Robot</p>
+
+                            <span class="text-[#6C757D] text-[14px]">876 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 345 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Oynali Fotoaparat
+                                Canon EOS 6D Body</p>
+
+                            <span class="text-[#6C757D] text-[14px]">565 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">299 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Airpods Pro
+                                simsiz quloqchin , Oq rangda</p>
+
+                            <span class="text-[#6C757D] text-[14px]">1230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">16 114 285 so'm</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Macbook Pro
+                                13" 2.4 2019 Intel core i5
+                                DDR3 8</p>
+
+                            <span class="text-[#6C757D] text-[14px]">230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">4 234 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[53px]">Apple watch 4</p>
+
+                            <span class="text-[#6C757D] text-[14px]">543 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 340 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Robot - tozalagich Xiaomi
+                                Mi Robot</p>
+
+                            <span class="text-[#6C757D] text-[14px]">876 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 345 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Oynali Fotoaparat
+                                Canon EOS 6D Body</p>
+
+                            <span class="text-[#6C757D] text-[14px]">565 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button
+                    class="w-[100%] bg-[#fff] pt-[17px] pb-[17px] rounded-[10px] text-[#1E1E1E] text-[18px] font-[400] mb-[60px]">Ko’proq
+                    ko’rish</button>
+            </div>
+        </section>
+        <!-- SECTION-3 ENDED -->
+
+        <!-- SECTION-4 STARTED -->
+        <section id="section-4" class="pb-[86px]">
+            <div class="container">
+                <div class="wrapper-4">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators rounded-[20px]">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded-[20px]">
+                            <div class="carousel-item active">
+                                <img src="./images/jpg/carousel-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/jpg/carousel-2.png" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/jpg/carousel-2.png" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-4 ENDED -->
+
+        <!-- SECTION-5 STARTED -->
+        <section id="section-5">
+            <div class="container">
+                <h2 class="text-[#1E1E1E] text-[28px] pb-[20px]">Eng ommabop</h2>
+                <div class="wrapper-3 flex flex-wrap gap-[20px] pb-[37px]">
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">299 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Airpods Pro
+                                simsiz quloqchin , Oq rangda</p>
+
+                            <span class="text-[#6C757D] text-[14px]">1230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">16 114 285 so'm</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Macbook Pro
+                                13" 2.4 2019 Intel core i5
+                                DDR3 8</p>
+
+                            <span class="text-[#6C757D] text-[14px]">230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">4 234 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[53px]">Apple watch 4</p>
+
+                            <span class="text-[#6C757D] text-[14px]">543 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 340 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Robot - tozalagich Xiaomi
+                                Mi Robot</p>
+
+                            <span class="text-[#6C757D] text-[14px]">876 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 345 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Oynali Fotoaparat
+                                Canon EOS 6D Body</p>
+
+                            <span class="text-[#6C757D] text-[14px]">565 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">299 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Airpods Pro
+                                simsiz quloqchin , Oq rangda</p>
+
+                            <span class="text-[#6C757D] text-[14px]">1230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">16 114 285 so'm</h3>
+
+                            <p class="text-[14px] pb-[33px]">Apple Macbook Pro
+                                13" 2.4 2019 Intel core i5
+                                DDR3 8</p>
+
+                            <span class="text-[#6C757D] text-[14px]">230 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">4 234 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[53px]">Apple watch 4</p>
+
+                            <span class="text-[#6C757D] text-[14px]">543 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 340 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Robot - tozalagich Xiaomi
+                                Mi Robot</p>
+
+                            <span class="text-[#6C757D] text-[14px]">876 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card p-[10px] w-[230px] h-[410px] bg-[#fff] border-none">
+                        <img src="./images/icons/favorite_border (1).svg" alt="favourite"
+                            class="w-[24px] absolute right-[14px] top-[14px] cursor-pointer">
+                        <img src="./images/jpg/macbook.png" alt="macbook" class="w-[180px] relative left-[4px]">
+
+                        <div class="card-title p-[10px]">
+                            <h3 class="text-[#0D63F3] text-[18px] font-[500] pb-[6px]">1 345 000 so’m</h3>
+
+                            <p class="text-[14px] pb-[33px]">Oynali Fotoaparat
+                                Canon EOS 6D Body</p>
+
+                            <span class="text-[#6C757D] text-[14px]">565 ta buyurtma</span>
+
+                            <div class="flex justify-between items-center pt-[25px]">
+                                <button
+                                    class="pt-[10px] pb-[10px] pl-[25px] pr-[25px] bg-[#0D63F3] rounded-[8px] h-[45px] text-[#FFF] text-[16px] hover:bg-[#0d61f3d1]">Sotib
+                                    olish</button>
+                                <img src="./images/icons/shopping-cart.svg" alt="shopping-cart"
+                                    class="h-[29px] cursor-pointer">
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button
+                    class="w-[100%] bg-[#fff] pt-[17px] pb-[17px] rounded-[10px] text-[#1E1E1E] text-[18px] font-[400] mb-[60px]">Ko’proq
+                    ko’rish</button>
+            </div>
+        </section>
+        <!-- SECTION-5 ENDED -->
+
+        <!-- SECTION-6 STARTED -->
+        <section id="section-6" class="pb-[60px]">
+            <div class="container">
+                <h2 class="text-[#1E1E1E] text-[28px] pb-[20px]">Brendlar bo’yicha</h2>
+                <div class="wrapper-6 flex flex-wrap items-center gap-[20px]">
+                    <img src="./images/icons/hp.svg" alt="hp">
+                    <img src="./images/icons/acer.svg" alt="acer">
+                    <img src="./images/icons/asus.svg" alt="asus">
+                    <img src="./images/icons/samsung.svg" alt="samsung">
+                    <img src="./images/icons/apple.svg" alt="apple">
+                    <img src="./images/icons/msi.svg" alt="msi">
+                    <img src="./images/icons/mi.svg" alt="mi">
+                    <img src="./images/icons/mi.svg" alt="mi">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-6 ENDED -->
+
+        <!-- SECTION-7 STARTED -->
+        <section id="section-7" class="pb-[86px]">
+            <div class="container">
+                <div class="wrapper-4">
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded-[20px]">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./images/jpg/carousel-2.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item" data-bs-interval="2000">
+                                <img src="./images/jpg/carousel-2.png" class="d-block w-100" alt="...">
+
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./images/jpg/carousel-2.png" class="d-block w-100" alt="...">
+
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTION-7 ENDED -->
+
+        <!-- SECTION-8 STARTED -->
+        <section id="section-8" class="pb-[80px]">
+            <div class="container">
+                <h2 class="text-[#1E1E1E] text-[28px] pb-[20px]">Do’konlarimiz</h2>
+                <div class="wrapper-8 flex flex-wrap gap-[20px]">
+                    <img src="./images/icons/elmakon.svg" alt="elmakon">
+                    <img src="./images/icons/texnomart.svg" alt="texnomart">
+                    <img src="./images/icons/media-park.svg" alt="media-park">
+                    <img src="./images/icons/sandiq.svg" alt="sandiq">
+                    <img src="./images/icons/good-zone.svg" alt="good-zone">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                    <img src="./images/icons/def-brand.svg" alt="default">
+                </div>
+
+            </div>
+        </section>
+        <!-- SECTION-8 ENDED -->
+        
+    </main>
+    <!-- MAIN SECTION ENDED -->
+
+    <!-- FOOTER SECTION STARTED -->
+    <footer class="pt-[60px] pb-[39px]">
+        <div class="container">
+            <!-- FOOTER WRAPPER-1 STARTED -->
+            <div class="footer-wrapper pb-[41px] flex justify-between">
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-[#1E1E1E] text-[16px] font-[600]">Hujjatlar</li>
+                    <li><a href="#">Umumiy shartlar</a></li>
+                    <li><a href="#">Ofertalar arxivi</a></li>
+                    <li><a href="#">Nizom</a></li>
+                    <li><a href="#">Guvohnoma</a></li>
+                </ul>
+
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-[#1E1E1E] text-[16px] font-[600]">Servis</li>
+                    <li><a href="#">Do’konlar</a></li>
+                    <li><a href="#">Biz haqimizda</a></li>
+                    <li><a href="#">Hamkorlik uchun</a></li>
+                    <li><a href="#">Qaytarish</a></li>
+                    <li><a href="#">Promokodlar</a></li>
+                </ul>
+
+                <ul class="flex flex-col gap-[15px]">
+                    <li class="text-[#1E1E1E] text-[16px] font-[600]">Mahsulotlar katalogi</li>
+                    <li><a href="#">Katalog 1</a></li>
+                    <li><a href="#">Katalog 1</a></li>
+                    <li><a href="#">Katalog 2</a></li>
+                    <li><a href="#">Katalog 2</a></li>
+                    <li><a href="#">Katalog 3</a></li>
+                    <li><a href="#">Katalog 3</a></li>
+                </ul>
+
+                <ul class="flex flex-col gap-[15px] ml-[200px]">
+                    <li class="text-[#1E1E1E] text-[16px] font-[600]">Axbarot xizmati</li>
+                    <li><a href="#">contact.@nextstore.uz</a></li>
+                    <li><a href="#">+998 97 712 96 96<br>
+                    +998 95 503 09 09</a></li>
+                    <li><a href="#">Sag’bon 186, Olmazor tumani, Toshkent,<br> O'zbekiston</a></li>
+                    <li>
+                        <div class="flex items-center gap-[26px] pt-[10px]">
+                            <img class="cursor-pointer" src="./images/icons/Facebook - Original.svg" alt="Facebook">
+                            <img class="cursor-pointer" src="./images/icons/instagram.svg" alt="instagram">
+                            <img class="cursor-pointer" src="./images/icons/telegram.svg" alt="telegram">
+                            <img class="cursor-pointer" src="./images/icons/tiktok.svg" alt="tiktok">
+                        </div>  
+                    </li>
+                </ul>
+            </div>
+            <!-- FOOTER WRAPPER-1 ENDED -->
+
+
+            <!-- FOOTER WRAPPER-2 STARTED -->
+            <div class="footer-wrapper-2 pt-[38px] flex items-center">
+                <p>2022 Nextstore.com</p>
+                <p class="ml-[775px]">Powered by <a class="text-[#ff0000b0] font-semibold" href="http://myurls.co/ziyodyakubov" target="_blank">Ziyodbek</a></p>
+            </div>
+            <!-- FOOTER WRAPPER-2 ENDED -->
+        </div>
+    </footer>
+    <!-- FOOTER SECTION ENDED -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
