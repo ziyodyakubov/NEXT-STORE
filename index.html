@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,6 +22,37 @@
 </head>
 
 <body>
+    <!-- LOADER -->
+    <div class="loader-wrapper">
+        <span class="loader">
+
+        </span>
+    </div>
+
+    <!-- MODAL WRAPPER -->
+    <div class="modal_wrapper hidden">
+        <div class="modal_content">
+            <div class="modal_header">
+                <span></span> <span id="close"> <i class='bx bx-x text-4xl mt-2 mr-2'></i></span>
+            </div>
+
+            <div class="modal_body py-6">
+
+                <h3 class="text-center modal_title text-2xl pt-[100px] text-[28px]">Hisobga kirish uchun</h3>
+                <div class="flex justify-center mx-auto flex-col gap-[10px] pt-[100px] pb-[100px]">
+                    <button class="p-[10px] bg-[#0D63F3] w-[300px] rounded-[12px] text-white">Kirish</button>
+                    <span class="text-center text-[#0000005e] font-[400]">Yoki</span>
+
+                    <button
+                        class="bg-gradient-to-r from-[#4D5EF6] to-[#F64D4D] border-[1px] p-[10px] rounded-[12px] text-[#fff]">Ro’yxatdan
+                        o’tish</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
     <!-- HEADER SECTION STARTED -->
     <header class="sticky top-0 z-10 shadow-black lg:shadow-xl bg-[#fff]">
         <div class="container">
@@ -43,7 +75,7 @@
             <nav>
                 <ul class="flex items-center justify-between gap-[50px] pb-[11px]">
                     <li><a href="#"><img src="./images/icons/main-logo.svg" alt="main-logo"></a></li>
-                    <li><a href="#"><button
+                    <li><a href="#"><button id="bx-menu"
                                 class="katalog text-[#fff] text-[16px] flex items-center gap-[12px] pt-[11px] pb-[11px] pl-[18px] pr-[18px] rounded-[8px]"><i
                                     class='bx bx-menu'></i>Katalog</button></a></li>
                     <li class="flex items-center"><input type="text" placeholder="Maxsulotlarni izlash"
@@ -53,7 +85,8 @@
                     <li class="mr-[-70px]"><img src="./images/icons/Sevimlilar.svg" alt="like" class="cursor-pointer">
                     </li>
                     <li><img src="./images/icons/Korzina.svg" alt="korzinka" class="cursor-pointer"></li>
-                    <li><button class="kirish rounded-[8px] pt-[13px] pb-[13px] pl-[35px] pr-[35px]">Kirish</button>
+                    <li><button id="login"
+                            class="kirish rounded-[8px] pt-[13px] pb-[13px] pl-[35px] pr-[35px]">Kirish</button>
                     </li>
                 </ul>
             </nav>
@@ -64,6 +97,134 @@
 
     <!-- MAIN SECTION STARTED -->
     <main class="bg-[#ECF4FF] z-[-5]">
+
+        <div class="katalog-hover container justify-between h-[818px] rounded-[10px] hidden">
+            <ul class="uljon bg-[#F0EFFC] pl-[20px] pt-[20px] w-[292px] rounded-l-[10px] shadow-lg">
+                <li><a class="text-[15px]" href="#">Aksiya</a></li>
+                <li><a class="text-[15px]" href="#">Kompyuterlar va notebooklar</a></li>
+                <li><a class="text-[15px]" href="#">Telefonlar</a></li>
+                <li><a class="text-[15px]" href="#">Maishiy texnika</a></li>
+                <li><a class="text-[15px]" href="#">Erkaklar uchun kiyim</a></li>
+                <li><a class="text-[15px]" href="#">Ayollar uchun kiyimlar</a></li>
+                <li><a class="text-[15px]" href="#">Bolalar uchun</a></li>
+                <li><a class="text-[15px]" href="#">Avtomobil mahsulotlari</a></li>
+                <li><a class="text-[15px]" href="#">Go'zallik va so'glik</a></li>
+                <li><a class="text-[15px]" href="#">Sport va o'yin-kulgi</a></li>
+                <li><a class="text-[15px]" href="#">Uy hayvonlari uchun tovarlar</a></li>
+                <li><a class="text-[15px]" href="#">Xobbi va ijodkorlik</a></li>
+                <li><a class="text-[15px]" href="#">Kantselyariya buyumlari</a></li>
+                <li><a class="text-[15px]" href="#">Maishiy kimyo</a></li>
+                <li><a class="text-[15px]" href="#">Sport va o'yin-kulgi</a></li>
+                <li><a class="text-[15px]" href="#">Uy hayvonlari uchun tovarlar</a></li>
+                <li><a class="text-[15px]" href="#">Aksesuarlar</a></li>
+            </ul>
+
+            <div class="bg-[#fff] flex gap-[50px] w-[938px] pt-[25px] rounded-r-[10px] shadow-lg">
+                <ul class="flex flex-col gap-[3px] w-[208px] pl-[20px] font-[400]">
+                    <li class="text-[#000] font-[500] pb-[8px]">Brendlar</li>
+                    <li class="text-[14px] font-[400]"><a href="#">Samsung</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Vivo</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Tecno</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Realme</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Xiaomi</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Apple</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Artel</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Nokia</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Infinix</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">OnePlus</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">ZTE</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Blackview</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Oppo</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Ergo</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">BQ</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Huawei</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Alcatel</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">TCL</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Inoi</a></li>
+                    <li class="text-[14px] font-[400]"><a href="#">Ko'proq</a></li>
+                </ul>
+
+                <div class="flex flex-col gap-[100px]">
+                    <div class="flex">
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Samsung brendi</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Redmi & Xiaomi</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Apple brendi</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="flex">
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Huawei</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Eng ommabop</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]"> Eng arzonlari</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="flex">
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Huawei mobile</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Huawei mobile</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+
+                        <ul class="w-[208px]">
+                            <li class="text-[#000] font-[500] pb-[8px]">Huawei mobile</li>
+                            <li class="text-[14px] font-[400]"><a href="#">S serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">A serialar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">Note serilar</a></li>
+                            <li class="text-[14px] font-[400]"><a href="#">M serialar</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- SECTION-1 STARTED -->
         <section id="section-1">
@@ -140,7 +301,7 @@
             </div>
         </section>
         <!-- SECTION-3 ENDED -->
-        
+
         <!-- SECTION-4 STARTED -->
         <section id="section-4" class="pb-[86px]">
             <div class="container">
@@ -515,7 +676,7 @@
             </div>
         </section>
         <!-- SECTION-8 ENDED -->
-        
+
     </main>
     <!-- MAIN SECTION ENDED -->
 
@@ -555,7 +716,7 @@
                     <li class="text-[#1E1E1E] text-[16px] font-[600]">Axbarot xizmati</li>
                     <li><a href="#">contact.@nextstore.uz</a></li>
                     <li><a href="#">+998 97 712 96 96<br>
-                    +998 95 503 09 09</a></li>
+                            +998 95 503 09 09</a></li>
                     <li><a href="#">Sag’bon 186, Olmazor tumani, Toshkent,<br> O'zbekiston</a></li>
                     <li>
                         <div class="flex items-center gap-[26px] pt-[10px]">
@@ -563,7 +724,7 @@
                             <img class="cursor-pointer" src="./images/icons/instagram.svg" alt="instagram">
                             <img class="cursor-pointer" src="./images/icons/telegram.svg" alt="telegram">
                             <img class="cursor-pointer" src="./images/icons/tiktok.svg" alt="tiktok">
-                        </div>  
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -573,7 +734,8 @@
             <!-- FOOTER WRAPPER-2 STARTED -->
             <div class="footer-wrapper-2 pt-[38px] flex items-center">
                 <p>2022 Nextstore.com</p>
-                <p class="ml-[775px]">Powered by <a class="text-[#ff0000b0] font-semibold" href="http://myurls.co/ziyodyakubov" target="_blank">Ziyodbek</a></p>
+                <p class="ml-[775px]">Powered by <a class="text-[#ff0000b0] font-semibold"
+                        href="http://myurls.co/ziyodyakubov" target="_blank">Ziyodbek</a></p>
             </div>
             <!-- FOOTER WRAPPER-2 ENDED -->
         </div>
@@ -587,8 +749,8 @@
         integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
         </script>
 
-        <script src="./cardinfo.js"></script>
-        <script src="./index.js"></script>
+    <script src="./cardinfo.js"></script>
+    <script src="./index.js"></script>
 </body>
 
 </html>
