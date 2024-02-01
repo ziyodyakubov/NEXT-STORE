@@ -78,7 +78,7 @@ window.addEventListener('load', () => {
         loadWrapper.style.display = 'none';
         document.body.style.overflow = "visible";
 
-    }, 900)
+    }, 500)
 
 })
 
